@@ -1,5 +1,5 @@
 Immutable_tuple = (1, 2, 'a', 'b')
-# Immutable_tuple[1] = 20    -  error
+# Immutable_tuple[1] = 20    - Typeerror кортежи -неизменяемые
 Immutable_tuple += (1, 2, [10, 15, 20])
 
 Mutable_list = [1, 2, 'a', 'b', 'Modified']
